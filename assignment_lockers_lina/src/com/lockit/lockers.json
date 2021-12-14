@@ -1,0 +1,96 @@
+[
+  [
+    //er kunnen dubbelen in deze lijst staan zonder controlles
+    {
+      "id": 1,
+      "x": 1,
+      "y": 1,
+      "occupied": true,
+      "locked_at": "12:00",
+      "expected_locked_till": "13:00"
+    },
+    {
+      "id": 2,
+      "x": 1,
+      "y": 2,
+      "occupied": false,
+      "locked_at": null,
+      "expected_locked_till": null
+    },
+    {
+      "id": 3,
+      "x": 1,
+      "y": 3,
+      "occupied": false,
+      "locked_at": null,
+      "expected_locked_till": null
+    },
+    {
+      "id": 4,
+      "x": 2,
+      "y": 1,
+      "occupied": false,
+      "locked_at": null,
+      "expected_locked_till": null
+    },
+    {
+      "id": 5,
+      "x": 2,
+      "y": 2,
+      "locked_at": false,
+      "occupied": true,
+      "expected_locked_till": null
+    },
+    {
+      "id": 6,
+      "x": 2,
+      "y": 3,
+      "locked_at": null,
+      "occupied": false,
+      "expected_locked_till": null
+    }
+  ],
+  [
+    // Leesbaarheid is minder
+    [
+      {
+        "row": 1,
+        "occupied": true,
+        "locked_at": "12:00",
+        "expected_locked_till": null
+      },
+      {
+        "row": 2,
+        "occupied": false,
+        "locked_at": null,
+        "expected_locked_till": null
+      },
+      {
+        "row": 3,
+        "occupied": false,
+        "locked_at": null,
+        "expected_locked_till": null
+      }
+    ],
+    [
+      {
+        "row": 4,
+        "occupied": false,
+        "locked_at": null,
+        "expected_locked_till": null
+      },
+      {
+        "row": 5,
+        "occupied": true,
+        "locked_at": null,
+        "expected_locked_till": null
+      },
+      {
+        "row": 6,
+        "occupied": false,
+        "locked_at": null,
+        "expected_locked_till": null
+      }
+    ]
+  ]
+]
